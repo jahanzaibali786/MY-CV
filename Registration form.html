@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="css/Registration form.css"/>
+    </head>
+ <body>
+       <div class="main">
+       <div class="register">
+          <h1 >Register Yourself Here</h1>
+           <form id="register" method="post">
+           <label >First Name :</label>
+            <input type="text"  name="First Name" id="fn" placeholder="First name" required></input><br><br>
+          <label >Last Name :</label>
+          <input type="text"  name="Last Name" id="ln" placeholder="Last name" required></input><br><br>
+          <label >Gender :</label><br><br>
+     <!-- &nbsp;&nbsp;&nbsp;  -->
+         <div class="Gender">
+           <input type="radio" name="Gender choise" id="m" ></input><label for="Gender">Male</label><br>
+          <input type="radio" name="Gender choise" id="fm"></input> <label for="Gender">Female</label><br>
+           <input type="radio" name="Gender choise" id="ot" ></input><label for="Gender">Others</label><br>
+         </div>
+           <br><br>
+     <!-- &nbsp; -->
+    
+           <label id="bd">BirthDay :</label>
+           <input type="date" name="birthday" ></input><br><br>
+ 
+           <label id="email">E-Mail :</label>
+           <input type="email" name="email" id=em placeholder="abc@gmail.com"></input><br><br>
+          <label id="pass">Password :</label>
+          <input type="password" name="password" id="pass" placeholder="password"></input><br><br>
+
+          <div class="BM">
+                <!-- <Label for="Month">Birth Month :</Label> -->
+          <h4  >BirthMonth : <select name="Month">
+         
+          <option value="0"selected disabled>Month</option>    
+          <option value="jan">January</option>
+         <option value="jan">February</option>
+           <option value="jan">March</option>
+          <option value="jan">April</option>
+          <option value="jan">May</option>
+          <option value="jan">June</option>
+           <option value="jan">July</option>
+          <option value="jan">August</option>
+           <option value="jan">September</option>
+           <option value="jan">October</option>
+           <option value="jan">November</option>
+          <option value="jan">December</option>
+         </h4>
+          </select>
+         </div>
+         <br>
+          <p>Am Agree With Terms & Conditions <input type="checkbox" name="check" title="Am agree with submission"></input></p>
+         
+          <br>
+          <!-- <label class="btn" >Submit/Join us</label>
+          <input type="submit" name="btn"></input> -->
+          <a class="submit" href="MyWebsite.html" >Submit/Join Us</a>
+   <br>
+
+         </form>
+       </div>
+         </div>
+      </body>
+</html>

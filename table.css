@@ -1,0 +1,33 @@
+html{
+    background: rgb(248, 208, 215);
+}
+h1{
+    background: #021988;
+    width: 110px;
+    color:white;
+}
+p{
+    background: yellow;
+    width: 400px;
+    color:orangered;
+    text-decoration: double underline solid red;
+    text-align: center;
+}
+thead{
+    background: rgb(62, 243, 62);
+    color:aliceblue;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    border: 0.5px solid black;
+}
+footer{
+    
+    text-decoration: underline solid black;
+    text-align: center ;
+    background: rgb(230, 101, 122);
+    width: 250px;
+    color:aliceblue;
+}

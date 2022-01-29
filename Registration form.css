@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("w.jfif");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 8px solid black;
+}
+label{
+    width:100px;
+    display: inline-block;
+    text-decoration: underline;
+    font-style:italic;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+input:hover{
+    background-color: rgb(230, 230, 20);
+}
+input{
+    color: blue;
+}
+h1{
+    color: rgb(240, 30, 30);
+    text-align: center;
+    background: blueviolet;
+    border-radius: 5pxS;
+}
+h2{
+    text-align: center;
+    padding: 40px;
+    font-family: sans-serif;
+}
+h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+div.Gender{
+    text-align: center;
+    display: inline-flex;
+    color: brown;
+    text-decoration: underline;
+}
+div.BM{
+    text-decoration: underline;
+    display: inline;
+}
+div.register:hover{
+    background-color: rgb(109, 216, 10);
+}
+div.register{
+     background-color: 0,0,0,0.5;
+     width: 100%;
+     font-style: oblique;
+     font-size:18px;
+     border-radius : 10px;
+     border:1px solid rgba(53, 50, 50, 0.3);
+     box-shadow:2px 2px 15px rgba(5, 5, 5, 0.3);
+     color:rgb(3, 46, 8);
+    }
+form#register{
+    margin: 40px;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(255, 255, 255, 0.3);
+}
+input#submit:hover{
+    background-color: red;
+}
+/* input#submit{
+       width: 200px;
+       padding: 7px;
+       font-size: 16px;
+       font-family: sans-serif;
+       font-weight: 600;
+       border-radius: 3px;
+       background-color: rgba(250, 100, 0, 0.8);
+       color:#fff;
+       cursor: pointer;
+       border: 1px solid rgba(255,255,255,0.3);
+       box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+} */
+.submit{
+    text-align: center;
+       width: 500px;
+       padding: 7px;
+       font-size: 16px;
+       font-family: sans-serif;
+       font-weight: 600;
+       border-radius: 3px;
+       background-color: rgba(250, 100, 0, 0.8);
+       color:#fff;
+       cursor: pointer;
+       border: 1px solid rgba(255,255,255,0.3);
+       box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+}

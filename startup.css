@@ -1,0 +1,23 @@
+div{
+    background: blueviolet;
+    background-color: 20px;
+    color: aliceblue;
+}
+p{
+    background: skyblue ;
+    color:black;
+}
+ol{
+    color:blue;
+    border: 3px dotted brown;
+    padding: 30px  ;
+    margin: 30px 100px 30px 30px;
+}
+a{
+   background: red;
+   color: blue;
+  
+}
+img{
+    border: 4px dashed blue;
+}
